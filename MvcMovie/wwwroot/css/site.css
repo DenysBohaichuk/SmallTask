@@ -1,0 +1,30 @@
+.text-center {
+    max-width: 230px;
+    margin: 0 auto;
+    position: absolute;
+    left:0;
+    right:0;
+    top: 50%;
+    transform:translate(0,-50%);
+}
+
+
+/*html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+
+}
+
+body {
+  margin-bottom: 60px;
+}*/
