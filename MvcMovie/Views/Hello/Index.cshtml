@@ -1,12 +1,14 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model MvcMovie.Models.User;
+@{
+    ViewData["Title"] = "Name";
 }
 
 <link rel="stylesheet" href="css/site.css">
 
 <div class="text-center">
-    <form>
+    @using(Html.BeginForm("ButtonClick", "Hello"))//Method and Controller
+    {
         <h1>Type your name</h1>
-        <p><input type="text" name="UserName" placeholder="Name"> <input type="submit" name="sendButton" value="Send"></p>
-    </form>
+        <p><input asp-for="UserName" placeholder="Name"> <button>Send</button></p>
+    }
 </div>

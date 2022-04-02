@@ -15,10 +15,6 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Documents\ВСЕВОЗМОЖНЫЕ ЛАБЫ\source\dotNet\Task1\MvcMovie\MvcMovie
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Documents/ВСЕВОЗМОЖНЫЕ ЛАБЫ/source/dotNet/Task1/MvcMovie/MvcMovie/Views/Hello/HelloAnonymousPage.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9cSGVsbG9Bbm9ueW1vdXNQYWdlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/Documents/ВСЕВОЗМОЖНЫЕ ЛАБЫ/source/dotNet/Task1/MvcMovie/MvcMovie/Views/Hello/HelloUserPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9cSGVsbG9Vc2VyUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

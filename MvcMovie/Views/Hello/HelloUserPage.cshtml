@@ -1,9 +1,17 @@
-﻿@{
-    ViewData["Title"] = "Hello, " + @ViewData["Message"];
+﻿@model MvcMovie.Models.User;
+@{
+    if (Model.UserName == null)
+        Model.UserName = "Anonymous";
+    ViewData["Title"] = $"Hello {Model.UserName}!";
 }
 
-<link rel="stylesheet" href="css/site.css">
 
-<div class="text-center">
-    <h1>Hello, @ViewData["Message"]</h1>
+<div style="max-width: 230px;
+     margin: 0 auto;
+     position: absolute;
+     left:0;
+     right:0;
+     top: 50%;
+     transform:translate(0,-50%);">
+    <h1>Hello, @Model.UserName!</h1> 
 </div>

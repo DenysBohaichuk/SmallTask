@@ -1,22 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using MvcMovie.Models;
 
 namespace MvcMovie.Controllers
 {
     public class HelloController : Controller
     {
-        public IActionResult Index(string sendButton, string UserName)
+
+        public IActionResult Index()
         {
-            if (sendButton!= null && UserName != null)
-            {
-                ViewData["Message"] = UserName;
-                return View("HelloUserPage");
-            }
-            else if(sendButton != null && UserName == null)
-            {
-                return View("HelloAnonymousPage");
-            }
             return View();
+        }
+
+
+        public ActionResult ButtonClick(User user)
+        {
+            return View("HelloUserPage", user);
         }
 
     }
