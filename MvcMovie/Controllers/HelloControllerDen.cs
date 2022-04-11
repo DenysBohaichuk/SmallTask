@@ -4,7 +4,7 @@ using MvcMovie.Models;
 
 namespace MvcMovie.Controllers
 {
-    public class HelloController : Controller
+    public class HelloControllerDen : Controller
     {
 
         public IActionResult Index()

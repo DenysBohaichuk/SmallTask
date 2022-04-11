@@ -1,7 +1,12 @@
+using WebApplication1.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews(option =>
+{
+    option.Conventions.Add(new Redirection());
+});
 
 var app = builder.Build();
 
